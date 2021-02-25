@@ -4,4 +4,8 @@ basic.forever(function () {
     } else {
         basic.showString("CO2")
     }
+    if (input.buttonIsPressed(Button.B)) {
+        basic.showNumber(input.temperature())
+        basic.showString("grados")
+    }
 })
